@@ -1,0 +1,21 @@
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel Rezervasyon.csproj.AssemblyReference.cache
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormGiris.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.Properties.Resources.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel Rezervasyon.csproj.GenerateResource.cache
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel Rezervasyon.csproj.CoreCompileInputs.cache
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormMusteri.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormOda.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormRezervasyon.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormMusteriListe.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormOdaListe.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\bin\Debug\Otel Rezervasyon.exe.config
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\bin\Debug\Otel Rezervasyon.exe
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\bin\Debug\Otel Rezervasyon.pdb
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel Rezervasyon.exe
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel Rezervasyon.pdb
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormAna.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormRezervasyonListe.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormAdminPanel.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormMudurPanel.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormKullaniciPanel.resources
+C:\Users\melih\source\Otel Rezervasyon\Otel Rezervasyon\obj\Debug\Otel_Rezervasyon.FormTarife.resources

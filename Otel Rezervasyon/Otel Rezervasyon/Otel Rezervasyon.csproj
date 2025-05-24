@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5DD405E1-491E-4279-A875-6F3B2C01145D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Otel_Rezervasyon</RootNamespace>
+    <AssemblyName>Otel Rezervasyon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseManager.cs" />
+    <Compile Include="FormAdminPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdminPanel.Designer.cs">
+      <DependentUpon>FormAdminPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAna.Designer.cs">
+      <DependentUpon>FormAna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGiris.Designer.cs">
+      <DependentUpon>FormGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormKullaniciPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormKullaniciPanel.Designer.cs">
+      <DependentUpon>FormKullaniciPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMudurPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMudurPanel.Designer.cs">
+      <DependentUpon>FormMudurPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMusteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMusteri.Designer.cs">
+      <DependentUpon>FormMusteri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMusteriListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMusteriListe.Designer.cs">
+      <DependentUpon>FormMusteriListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOda.Designer.cs">
+      <DependentUpon>FormOda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOdaListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOdaListe.Designer.cs">
+      <DependentUpon>FormOdaListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRezervasyon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRezervasyon.Designer.cs">
+      <DependentUpon>FormRezervasyon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRezervasyonListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRezervasyonListe.Designer.cs">
+      <DependentUpon>FormRezervasyonListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTarife.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTarife.Designer.cs">
+      <DependentUpon>FormTarife.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IMusteriIslemleri.cs" />
+    <Compile Include="IOdaIslemleri.cs" />
+    <Compile Include="IRezervasyonIslemleri.cs" />
+    <Compile Include="Musteri.cs" />
+    <Compile Include="MusteriManager.cs" />
+    <Compile Include="Oda.cs" />
+    <Compile Include="OdaManager.cs" />
+    <Compile Include="OtelRezervasyonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtelRezervasyonDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rezervasyon.cs" />
+    <Compile Include="RezervasyonManager.cs" />
+    <Compile Include="Veritabani.cs" />
+    <EmbeddedResource Include="FormAdminPanel.resx">
+      <DependentUpon>FormAdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAna.resx">
+      <DependentUpon>FormAna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGiris.resx">
+      <DependentUpon>FormGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormKullaniciPanel.resx">
+      <DependentUpon>FormKullaniciPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMudurPanel.resx">
+      <DependentUpon>FormMudurPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMusteri.resx">
+      <DependentUpon>FormMusteri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMusteriListe.resx">
+      <DependentUpon>FormMusteriListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOda.resx">
+      <DependentUpon>FormOda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOdaListe.resx">
+      <DependentUpon>FormOdaListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRezervasyon.resx">
+      <DependentUpon>FormRezervasyon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRezervasyonListe.resx">
+      <DependentUpon>FormRezervasyonListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTarife.resx">
+      <DependentUpon>FormTarife.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="OtelRezervasyonDataSet.xsc">
+      <DependentUpon>OtelRezervasyonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OtelRezervasyonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OtelRezervasyonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OtelRezervasyonDataSet.xss">
+      <DependentUpon>OtelRezervasyonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
